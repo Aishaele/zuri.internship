@@ -76,6 +76,10 @@ body{
     justify-content: center;
     align-items: center;
 }
+.style-a-tag a :hover{
+    background-color: #c5cede;
+    cursor: pointer;
+}
 .style-logo{
     margin-top: 35px;
 }
