@@ -75,10 +75,12 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: all 0.5s;
 }
-.style-a-tag a :hover{
+.style-a-tag a:hover{
     background-color: #c5cede;
     cursor: pointer;
+    transform: scale(1.1);
 }
 .style-logo{
     margin-top: 35px;
